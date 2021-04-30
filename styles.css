@@ -5,7 +5,9 @@
   
 }
 body {
-  background: linear-gradient( #6dbfd8,#91E6EE);
+  background: url(bg-pattern-bottom.svg) top right no-repeat,
+  url(bg-pattern-top.svg) bottom left no-repeat;
+  background-color: #91e6ee;
   width: 100vw;
   overflow: hidden;
 }
@@ -25,7 +27,7 @@ left: 100px;
   width: 100vw;
   justify-content: center;
   align-items: center;
-  background: linear-gradient( #6dbfd8,#91E6EE);
+  
 }
 
 .profile-container {
@@ -36,6 +38,7 @@ left: 100px;
   border-radius: 10px;
   box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.6);
   z-index: 5;
+  margin: 200px auto;
 }
 
 .profile-container:hover {
